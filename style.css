@@ -1,0 +1,59 @@
+body {
+  background-image: url('https://www.shutterstock.com/image-photo/virtual-meeting-online-video-conference-600nw-1746616652.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  backdrop-filter: blur(2px);
+  width:100%; height:100%;
+  margin:auto;
+  font-family:Arial;
+  font-size:16px;
+  color:#ffffff;
+}
+
+h1, p {
+  text-align:center;
+  margin: 1rem auto;
+  color:white;
+}
+
+#survey-form{
+  width:60vw;
+  min-width:300px;
+  max-width:600px;
+  margin:0 auto 40px;
+  padding:2em;  opacity: 0.8;
+  background-color: #07072c;
+}
+
+label {
+  display:block;
+  margin:1rem 0;
+}
+
+input, textarea, select, button {
+  margin:5px 0;
+  width:100%; min-height:2em;
+}
+
+input, textarea {
+  border:2px solid rgb(72, 43, 139);
+}
+
+input[type=radio], input[type="checkbox"]{
+  width:unset;
+  margin: 0 1em 0 0;
+  vertical-align: middle;
+  display:inline;
+}
+
+input[type="submit"] {
+  display:block;
+  width:100%;
+  margin:1em auto;
+  height: 2em;
+  font-size:1em;
+  color:#ffffff;
+  background-color:green;
+  border:none;
+}
